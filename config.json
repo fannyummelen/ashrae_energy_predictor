@@ -1,0 +1,64 @@
+{
+	"clean_data_from_scratch": {
+		"enable": false,
+		"options": {
+			"make_supporting_csvs": true
+		}
+	},
+	"make_visualizations": {
+		"enable": false,
+		"type": {
+			"meter_reading_boxplots": {
+				"enable": true
+			},
+			"violin_plots": {
+				"enable": true
+			},
+			"weather_heatmap": {
+				"enable": false
+			},
+			"temperature_evolution_during_day": {
+				"enable": false
+			},
+			"plot_meter_reading_vs_time": {
+				"enable": false
+			},
+			"time_plots_per_meter_and_site": {
+				"enable": false
+			},
+			"plot_raw_and_cleaned_meter_readings": {
+				"enable": false
+			},
+			"plot_primary_use_per_site": {
+				"enable": false
+			}
+		},
+		"plot_property": "air_temperature",
+		"building_id": 1232,
+		"meter": 0,
+		"start_time": "2016-01-01",
+		"end_time": "2016-12-31"
+	},
+	"train_model": {
+		"enable": true,
+		"model_name": "tree_reg",
+		"check_feature_importances": false,
+		"make_learning_curves": true,
+		"meter_learning_curves": 0,
+		"relative_size_validation_set": 0.1,
+		"pca": false,
+		"features": [
+			"meter_reading",
+			"meter",
+			"mean_meter_reading_building",
+			"std_meter_reading_building",
+			"meter_usage",
+			"reading_weather_based",
+			"hour",
+			"month",
+			"work",
+			"airco"
+		]
+
+	}
+}
