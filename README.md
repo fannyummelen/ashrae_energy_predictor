@@ -5,6 +5,7 @@ consumption of several buildings for 2017 and 2018 based on their energy consump
 
 ## Quick start
 * Download this project.
+* Download csv_input.zip from https://fannyummelen.me/static/csv_input.zip
 * Extract csv_input.zip file into the folder "csv_input" in the base of this project. 
 * Install the packages listed under dependencies
 * Run main.py for data visualization and model training
@@ -33,3 +34,4 @@ Fanny Ummelen
 ## External links
 
 https://www.kaggle.com/c/ashrae-energy-prediction
+https://fannyummelen.me/static/csv_input.zip
