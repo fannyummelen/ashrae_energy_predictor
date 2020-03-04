@@ -5,17 +5,17 @@ consumption of several buildings for 2017 and 2018 based on their energy consump
 
 ## Dependencies:
 
-Pandas
-Numpy
-Sklearn
-Joblib
-Json
-Os
-Scipy
-Datetime
-Math
-Pyplot  
-Seaborn
+Pandas  
+Numpy  
+Sklearn  
+Joblib  
+Json  
+Os  
+Scipy  
+Datetime  
+Math  
+Pyplot    
+Seaborn  
 
 ## Author
 
